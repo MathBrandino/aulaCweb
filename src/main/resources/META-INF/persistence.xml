@@ -6,10 +6,8 @@
 	version="2.0">
 	<persistence-unit name="default">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<!-- <class>br.com.ime.ocrDoacao.model.</class> -->
-<!-- 		<class>br.com.caelum.fjcw.pagamento.models.Pagamento</class> -->
-<!-- 		<class>br.com.caelum.fjcw.pagamento.models.Usuario</class> -->
-<!-- 		<class>br.com.caelum.fjcw.pagamento.models.Cartao</class> -->
+		<class>br.com.caelum.pirata.models.Barco</class>
+		<class>br.com.caelum.pirata.models.Categoria</class>
 		
 		<properties>  
             <!-- DADOS CONEXAO -->  
@@ -17,7 +15,6 @@
             <property name="hibernate.connection.username" value="root" />  
             <property name="hibernate.connection.password" value="" />  
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/ipirata?createDatabaseIfNotExist=true" />  
-            <property name="hibernate.default_schema" value="fjcw"/>  
           
             <!-- CONFIGURACAO -->  
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />  

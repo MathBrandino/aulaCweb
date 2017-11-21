@@ -1,4 +1,4 @@
-package br.com.caelum.pirara.controllers;
+package br.com.caelum.pirata.controllers;
 
 import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Resource;
@@ -7,7 +7,7 @@ import br.com.caelum.vraptor.Resource;
 public class HomeController {
 
 	@Get("/")
-	public void index() {		
+	public void index() {
 	}
 	
 }
